@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");/*
+:root {
+  --primary: #225451;
+  --secondary: #2D5855;
+}
+/*
 ! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
