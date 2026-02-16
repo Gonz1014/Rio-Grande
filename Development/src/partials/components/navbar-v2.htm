@@ -1,0 +1,2006 @@
+<header class="fixed left-0 z-[9999] w-full">
+  <!-- bg Gradient overlay -->
+  <div
+    class="w-full fixed h-[155px] top-0 z-[21] pointer-events-none gradient-shadow"
+  >
+    <div
+      class="absolute inset-0 pointer-events-none"
+      style="backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px)"
+    ></div>
+    <div
+      class="absolute inset-0 pointer-events-none rounded-[inherit]"
+      style="
+        mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 16.666666666666664%,
+          rgba(255, 255, 255, 1) 33.33333333333333%,
+          rgba(255, 255, 255, 0) 50%
+        );
+        -webkit-mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 16.666666666666664%,
+          rgba(255, 255, 255, 1) 33.33333333333333%,
+          rgba(255, 255, 255, 0) 50%
+        );
+        backdrop-filter: blur(-7px);
+        -webkit-backdrop-filter: blur(-7px);
+      "
+    ></div>
+    <div
+      class="absolute inset-0 pointer-events-none rounded-[inherit]"
+      style="
+        mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 16.666666666666664%,
+          rgba(255, 255, 255, 1) 33.33333333333333%,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 0) 66.66666666666666%
+        );
+        -webkit-mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 16.666666666666664%,
+          rgba(255, 255, 255, 1) 33.33333333333333%,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 0) 66.66666666666666%
+        );
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+      "
+    ></div>
+    <div
+      class="absolute inset-0 pointer-events-none rounded-[inherit]"
+      style="
+        mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 33.33333333333333%,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 1) 66.66666666666666%,
+          rgba(255, 255, 255, 0) 83.33333333333333%
+        );
+        -webkit-mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 33.33333333333333%,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 1) 66.66666666666666%,
+          rgba(255, 255, 255, 0) 83.33333333333333%
+        );
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+      "
+    ></div>
+    <div
+      class="absolute inset-0 pointer-events-none rounded-[inherit]"
+      style="
+        mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 50%,
+          rgba(255, 255, 255, 1) 66.66666666666666%,
+          rgba(255, 255, 255, 1) 83.33333333333333%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        -webkit-mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 50%,
+          rgba(255, 255, 255, 1) 66.66666666666666%,
+          rgba(255, 255, 255, 1) 83.33333333333333%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+      "
+    ></div>
+    <div
+      class="absolute inset-0 pointer-events-none rounded-[inherit]"
+      style="
+        mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 66.66666666666666%,
+          rgba(255, 255, 255, 1) 83.33333333333333%,
+          rgba(255, 255, 255, 1) 100%,
+          rgba(255, 255, 255, 0) 116.66666666666666%
+        );
+        -webkit-mask-image: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 66.66666666666666%,
+          rgba(255, 255, 255, 1) 83.33333333333333%,
+          rgba(255, 255, 255, 1) 100%,
+          rgba(255, 255, 255, 0) 116.66666666666666%
+        );
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+      "
+    ></div>
+  </div>
+  <!--  -->
+  <nav
+    class="container flex relative items-center z-[1000] w-full nav-top mt-3"
+  >
+    <!-- Large devices Nav -->
+    <div>
+      <a href="index.html">
+        <img
+          class="max-h-[68px] w-auto inline-block dark:hidden"
+          src="images/logo.png"
+          alt="logo"
+        />
+        <img
+          class="max-h-[68px] w-auto dark:inline-block hidden"
+          src="images/logo-white.png"
+          alt="logo"
+        />
+      </a>
+    </div>
+
+    <ul class="hidden lg:flex lg:ml-7 xl:ml-15 [&>*:not(:last-child)]:me-1">
+      <li class="relative group">
+        <a
+          href="javascript:void(0)"
+          class="font-satoshi flex items-center text-lg font-normal group-hover:font-instrument leading-7 text-secondary/70 dark:text-backgroundBody py-[7px] px-5 lg:px-4 group-hover:font-semibold duration-300 transition-all @@if(nav == 'home'){active}"
+        >
+          Home
+
+          <span class="group-hover:rotate-180 duration-500 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 25 24"
+              fill="none"
+            >
+              <path
+                d="M6.5 9L12.5 15L18.5 9"
+                class="stroke-secondary dark:stroke-backgroundBody"
+                stroke-opacity="0.7"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </a>
+        <ul
+          class="absolute min-w-[270px] left-0 top-14 px-12 py-20 opacity-0 scale-y-0 flex flex-col items-center justify-center origin-top duration-500 group-hover:scale-y-100 bg-white shadow-md dark:bg-black group-hover:opacity-100 [&>*:not(:first-child)]:mt-5 z-10"
+        >
+          <li
+            class="relative overflow-hidden group/children text-base leading-6 font-normal"
+          >
+            <a
+              href="index.html"
+              class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+            >
+              Homepage 01
+              <span
+                class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <mask id="path-1-inside-1_6630_12042" fill="white">
+                    <path d="M9 18L15 12L9 6" />
+                  </mask>
+                  <path
+                    d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                    class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                    mask="url(#path-1-inside-1_6630_12042)"
+                  />
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <li
+            class="relative overflow-hidden group/children text-base leading-6 font-normal"
+          >
+            <a
+              href="index.html"
+              class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+            >
+              Homepage 02
+              <span
+                class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <mask id="path-1-inside-1_6630_12042" fill="white">
+                    <path d="M9 18L15 12L9 6" />
+                  </mask>
+                  <path
+                    d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                    class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                    mask="url(#path-1-inside-1_6630_12042)"
+                  />
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <li
+            class="relative overflow-hidden group/children text-base leading-6 font-normal"
+          >
+            <a
+              href="index.html"
+              class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+            >
+              Homepage 03
+              <span
+                class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <mask id="path-1-inside-1_6630_12042" fill="white">
+                    <path d="M9 18L15 12L9 6" />
+                  </mask>
+                  <path
+                    d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                    class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                    mask="url(#path-1-inside-1_6630_12042)"
+                  />
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <li
+            class="relative overflow-hidden group/children text-base leading-6 font-normal"
+          >
+            <a
+              href="index.html"
+              class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+            >
+              Homepage 04
+              <span
+                class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <mask id="path-1-inside-1_6630_12042" fill="white">
+                    <path d="M9 18L15 12L9 6" />
+                  </mask>
+                  <path
+                    d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                    class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                    mask="url(#path-1-inside-1_6630_12042)"
+                  />
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <li
+            class="relative overflow-hidden group/children text-base leading-6 font-normal"
+          >
+            <a
+              href="index.html"
+              class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+            >
+              Homepage 05
+              <span
+                class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <mask id="path-1-inside-1_6630_12042" fill="white">
+                    <path d="M9 18L15 12L9 6" />
+                  </mask>
+                  <path
+                    d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                    class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                    mask="url(#path-1-inside-1_6630_12042)"
+                  />
+                </svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="group">
+        <a
+          href="about.html"
+          class="font-satoshi flex items-center text-lg font-normal leading-7 text-secondary/70 dark:text-backgroundBody py-[7px] px-5 lg:px-4 group-hover:font-semibold duration-300 transition-all @@if(nav == 'about'){active}"
+        >
+          About
+        </a>
+      </li>
+      <li class="relative group">
+        <a
+          href="javascript:void(0)"
+          class="font-satoshi flex items-center text-lg font-normal group-hover:font-instrument leading-7 text-secondary/70 dark:text-backgroundBody py-[7px] px-5 lg:px-4 group-hover:font-semibold duration-300 transition-all @@if(nav == 'services'){active}"
+        >
+          Services
+
+          <span class="group-hover:rotate-180 duration-500 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 25 24"
+              fill="none"
+            >
+              <path
+                d="M6.5 9L12.5 15L18.5 9"
+                class="stroke-secondary dark:stroke-backgroundBody"
+                stroke-opacity="0.7"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </a>
+        <div
+          class="absolute min-w-[560px] flex -left-10 z-10 top-14 px-14 py-[70px] opacity-0 scale-y-0 items-center justify-between origin-top duration-500 group-hover:scale-y-100 bg-white shadow-md dark:bg-black group-hover:opacity-100"
+        >
+          <ul class="[&>*:not(:first-child)]:mt-2.5">
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Email Marketing
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Paid Avertising
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                SEO & SEM
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Funnel Optimization
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Content Marketing
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Social Media
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <ul class="[&>*:not(:first-child)]:mt-2.5">
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Email Marketing
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Paid Avertising
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                SEO & SEM
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Funnel Optimization
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Content Marketing
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-base leading-6 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-base leading-6 font-normal"
+              >
+                Content Marketing
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="group">
+        <a
+          href="about.html"
+          class="font-satoshi flex items-center text-lg font-normal leading-7 text-secondary/70 dark:text-backgroundBody py-[7px] px-5 lg:px-4 group-hover:font-semibold duration-300 transition-all @@if(nav == 'about'){active}"
+        >
+          Blog
+        </a>
+      </li>
+      <li class="group">
+        <a
+          href="about.html"
+          class="font-satoshi flex items-center text-lg font-normal leading-7 text-secondary/70 dark:text-backgroundBody py-[7px] px-5 lg:px-4 group-hover:font-semibold duration-300 transition-all @@if(nav == 'about'){active}"
+        >
+          Contact
+        </a>
+      </li>
+      <li class="group">
+        <a
+          href="javascript:void(0)"
+          class="font-satoshi flex items-center text-lg font-normal leading-7 text-secondary/70 dark:text-backgroundBody/70 py-[7px] px-5 lg:px-4 group-hover:font-semibold duration-300 transition-all"
+        >
+          Pages
+          <span class="group-hover:rotate-180 duration-500 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 25 24"
+              fill="none"
+            >
+              <path
+                d="M6.5 9L12.5 15L18.5 9"
+                class="stroke-secondary dark:stroke-backgroundBody"
+                stroke-opacity="0.7"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </a>
+        <div
+          class="absolute grid grid-cols-12 w-full left-0 top-20 opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white dark:bg-black group-hover:opacity-100 shadow-lg z-10 items-center"
+        >
+          <div
+            class="px-[60px] flex items-start justify-around py-[70px] col-span-8"
+          >
+            <ul class="border-r pr-[30px] [&>*:not(:first-child)]:mt-5">
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <ul class="border-r pr-[30px] [&>*:not(:first-child)]:mt-5">
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <ul class="[&>*:not(:first-child)]:mt-5">
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-base leading-6 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center text-base leading-6 font-normal duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody"
+                >
+                  Email Marketing
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-4">
+            <img src="images/sub-nav-img.png" alt="navbar" class="w-full" />
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="flex items-center ml-auto [&>*:not(:last-child)]:me-2.5">
+      <li
+        class="p-2 lg:p-[21px] border dark:border-dark bg-backgroundBody dark:bg-secondary hover:bg-backgroundBody/40 dark:hover:bg-secondary/70 flex items-center justify-center cursor-pointer"
+        id="open-btn"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+            class="stroke-secondary dark:stroke-backgroundBody"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M21.0004 20.9999L16.6504 16.6499"
+            class="stroke-secondary dark:stroke-backgroundBody"
+            stroke-width="2"
+            stroke-linecap="square"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </li>
+      <li class="hidden md:inline-block w-[90%] mx-auto md:ml-auto mt-1">
+        <a
+          href="/contact.html"
+          class="rv-button rv-button-primary block md:inline-block"
+        >
+          <div class="rv-button-top">
+            <span class="text-nowrap">Start a Project</span>
+          </div>
+          <div class="rv-button-bottom">
+            <span class="text-nowrap">Start a Project</span>
+          </div>
+        </a>
+      </li>
+      <li class="max-lg:inline-block lg:hidden">
+        <div
+          class="mobile-menu-button cursor-pointer relative h-[68px] w-[68px] before:content-[''] before:absolute before:top-[28px] before:left-1/2 before:w-9 before:h-0.5 before:bg-black dark:before:bg-backgroundBody before:-translate-x-1/2 before:transition-all before:duration-300 after:content-[''] after:absolute after:bottom-[28px] after:left-1/2 after:w-9 after:h-0.5 after:bg-black dark:after:bg-backgroundBody after:-translate-x-1/2 after:transition-all after:duration-300 hover:before:top-[25px] hover:after:bottom-[25px]"
+        ></div>
+      </li>
+    </ul>
+
+    <!-- Mobile devices Nav-->
+    <div class="mobile-menu max-lg:overflow-y-auto max-md:block hidden">
+      <button
+        class="outline-none navbar-toggle-close text-secondary dark:text-backgroundBody absolute right-10 top-7"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="30"
+          height="30"
+          viewBox="0 0 50 50"
+        >
+          <path
+            d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"
+            class="fill-secondary dark:fill-backgroundBody"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="flex flex-col gap-3 mt-12 w-full landscape:h-full relative">
+        <li class="relative group">
+          <p
+            class="mobile-nav-header flex items-center text-lg font-medium leading-8 py-[5px] px-5 lg:px-4 xl:px-5 group mobile-menu-button"
+          >
+            Home
+          </p>
+          <ul class="mobile-nav-collapse-body close">
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Homepage 01
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Homepage 01
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Homepage 01
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Homepage 01
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Homepage 01
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="">
+          <a
+            href="about.html"
+            class="flex items-center text-lg font-medium leading-8 py-[5px] px-5 lg:px-4 xl:px-5 text-secondary/70 dark:text-backgroundBody"
+          >
+            About
+          </a>
+        </li>
+        <li class="relative group">
+          <p
+            href="javascript:void(0)"
+            class="mobile-nav-header flex items-center text-base font-medium leading-8 py-[5px] px-5 lg:px-4 xl:px-5"
+          >
+            Services
+          </p>
+          <ul
+            class="absolute w-full left-0 top-12 p-5 opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white dark:bg-dark group-hover:opacity-100 [&>*:not(:first-child)]:mt-2.5 z-10 mobile-nav-collapse-body close"
+          >
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Services
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li
+              class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+            >
+              <a
+                href="index.html"
+                class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+              >
+                Services Details
+                <span
+                  class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <mask id="path-1-inside-1_6630_12042" fill="white">
+                      <path d="M9 18L15 12L9 6" />
+                    </mask>
+                    <path
+                      d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                      class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                      mask="url(#path-1-inside-1_6630_12042)"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <p
+            href="javascript:void(0)"
+            class="mobile-nav-header flex items-center text-lg font-medium leading-8 py-[5px] px-5 lg:px-4 xl:px-5 group"
+          >
+            Pages
+          </p>
+          <div
+            class="absolute w-full left-0 top-12 p-5 opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white dark:bg-dark group-hover:opacity-100 z-10 items-center mobile-nav-collapse-body close"
+          >
+            <ul class="columns-2 gap-10 mb-10">
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Team
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  about-02
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  testimonial
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Price
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Career
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Career Details
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Faq
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Career-2
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Login
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="relative overflow-hidden group/children text-sm leading-5 font-normal"
+              >
+                <a
+                  href="index.html"
+                  class="flex items-center duration-500 text-secondary/70 dark:text-backgroundBody/70 group-hover/children:text-secondary dark:group-hover/children:text-backgroundBody text-sm leading-6 font-normal"
+                >
+                  Sign in
+                  <span
+                    class="opacity-0 group-hover/children:opacity-100 duration-500 transition-al -translate-x-1 group-hover/children:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <mask id="path-1-inside-1_6630_12042" fill="white">
+                        <path d="M9 18L15 12L9 6" />
+                      </mask>
+                      <path
+                        d="M8.29289 17.2929C7.90237 17.6834 7.90237 18.3166 8.29289 18.7071C8.68342 19.0976 9.31658 19.0976 9.70711 18.7071L8.29289 17.2929ZM15 12L15.7071 12.7071L16.4142 12L15.7071 11.2929L15 12ZM9.70711 5.29289C9.31658 4.90237 8.68342 4.90237 8.29289 5.29289C7.90237 5.68342 7.90237 6.31658 8.29289 6.70711L9.70711 5.29289ZM9.70711 18.7071L15.7071 12.7071L14.2929 11.2929L8.29289 17.2929L9.70711 18.7071ZM15.7071 11.2929L9.70711 5.29289L8.29289 6.70711L14.2929 12.7071L15.7071 11.2929Z"
+                        class="fill-secondary group-hover/children:fill-primary dark:fill-backgroundBody"
+                        mask="url(#path-1-inside-1_6630_12042)"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <div class="max-w-full">
+              <img src="images/sub-nav-img.png" alt="navbar" class="w-full" />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="border-t mt-2 lg:mt-6 container"></div>
+</header>
+
+<!-- Cursor Pointer -->
+<div class="pointer"></div>
+
+<!-- Dark Mode toggle -->
+<div class="toggle-button fixed right-10 bottom-10 z-[1000]">
+  <button
+    aria-label="Toggle dark/light theme"
+    id="theme-toggle"
+    type="button"
+    class="text-secondary bg-black/90 dark:bg-backgroundBody/90 rounded-[1px] backdrop-blur-xl dark:text-white focus:outline-none focus:ring-0 focus:ring-gray-200 w-[44px] h-[44px] flex justify-center items-center"
+  >
+    <svg
+      data-testid="geist-icon"
+      id="theme-toggle-dark-icon"
+      class="hidden w-5 h-5"
+      fill="#fff"
+      stroke-linejoin="round"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M10.5 0.25V1V1.5H11L11.75 1.5V3H11H10.5V3.5V4.25H9V3.5V3H8.5H7.75V1.5H8.5H9V1V0.25H10.5ZM3.25514 2.75496C2.33413 3.53491 1.75 4.69972 1.75 6C1.75 8.34721 3.65279 10.25 6 10.25C7.30029 10.25 8.4651 9.66587 9.24505 8.74485C9.16377 8.74827 9.08207 8.74999 9 8.74999C5.82436 8.74999 3.25 6.17563 3.25 2.99999C3.25 2.91792 3.25172 2.83623 3.25514 2.75496ZM0.25 6C0.25 3.51072 1.83142 1.39271 4.042 0.592193L5.00256 1.55275C4.83933 2.00347 4.75 2.49047 4.75 2.99999C4.75 5.3472 6.65279 7.24999 9 7.24999C9.50953 7.24999 9.99653 7.16065 10.4473 6.99743L11.4078 7.95798C10.6073 10.1686 8.48929 11.75 6 11.75C2.82436 11.75 0.25 9.17564 0.25 6Z"
+        fill="#fff"
+        transform="translate(2.25, 2.25)"
+      ></path>
+    </svg>
+    <svg
+      id="theme-toggle-light-icon"
+      class="hidden w-5 h-5"
+      fill="#000"
+      viewBox="0 0 16 16"
+      data-testid="geist-icon"
+      stroke-linejoin="round"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M7.75 1V0.25H6.25V1V1.25V2H7.75V1.25V1ZM7 9C8.10457 9 9 8.10457 9 7C9 5.89543 8.10457 5 7 5C5.89543 5 5 5.89543 5 7C5 8.10457 5.89543 9 7 9ZM7 10.5C8.933 10.5 10.5 8.933 10.5 7C10.5 5.067 8.933 3.5 7 3.5C5.067 3.5 3.5 5.067 3.5 7C3.5 8.933 5.067 10.5 7 10.5ZM7.75 12V12.75V13V13.75H6.25V13V12.75V12H7.75ZM12 6.25H12.75H13H13.75V7.75H13H12.75H12V6.25ZM1 6.25H0.25V7.75H1H1.25H2V6.25H1.25H1ZM10.0052 2.93414L10.5355 2.40381L10.7123 2.22703L11.2426 1.6967L12.3033 2.75736L11.773 3.28769L11.5962 3.46447L11.0659 3.9948L10.0052 2.93414ZM2.22703 10.7123L1.6967 11.2426L2.75736 12.3033L3.28769 11.773L3.46447 11.5962L3.9948 11.0659L2.93414 10.0052L2.40381 10.5355L2.22703 10.7123ZM2.93414 3.9948L2.40381 3.46447L2.22703 3.28769L1.6967 2.75736L2.75736 1.6967L3.28769 2.22703L3.46447 2.40381L3.9948 2.93414L2.93414 3.9948ZM10.7123 11.773L11.2426 12.3033L12.3033 11.2426L11.773 10.7123L11.5962 10.5355L11.0659 10.0052L10.0052 11.0659L10.5355 11.5962L10.7123 11.773Z"
+        fill="#000"
+        transform="translate(1.25, 1.25)"
+      ></path>
+    </svg>
+  </button>
+</div>

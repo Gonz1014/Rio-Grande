@@ -1,0 +1,44 @@
+// Career  tab-------
+.tab-button {
+  @apply relative transition-all duration-[0.6s];
+
+  &.active {
+    @apply bg-primary dark:bg-primary;
+  }
+}
+
+.tab-content {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+// -----------Modal Reveal Animation
+.animate-keep-bounce {
+  animation: bounce-open 0.5s;
+}
+@keyframes bounce-open {
+  0% {
+    transform: scale(0.8);
+  }
+
+  45% {
+    transform: scale(1.07);
+  }
+
+  80% {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
