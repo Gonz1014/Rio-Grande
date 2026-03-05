@@ -7520,8 +7520,10 @@ to{
 /* Service card image size — 25% reduction */
 .hero-video-container img {
   height: 420px;
-  width: auto;
+  width: 100%;
   max-width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 /* Leadership card profile photos */
 #leadership .p-8 img {
