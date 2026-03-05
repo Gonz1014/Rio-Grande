@@ -7534,11 +7534,15 @@ to{
 }
 /* Partnership section card heading font size */
 #partnership .blog-title h3 {
-  font-size: 1.15rem !important;
+  font-size: 1.35rem !important;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 #partnership .blog-title p {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
 }
 /* Partnership section card images — 33% reduction */
 #partnership figure {
@@ -7571,5 +7575,9 @@ footer {
 /* Remove horizontal line from nav menu footer bar */
 .menu-footer {
   border: none !important;
+}
+/* Wilshire logo — invert white SVG for light background */
+img[src="images/Wilshire-white.svg"] {
+  filter: invert(1);
 }
 /*# sourceMappingURL=maps/main.css.map */
