@@ -7523,4 +7523,13 @@ to{
   width: auto;
   max-width: 100%;
 }
+/* Leadership card profile photos */
+#leadership .p-8 img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  float: right;
+  margin: 0 0 16px 24px;
+  border-radius: 4px;
+}
 /*# sourceMappingURL=maps/main.css.map */
