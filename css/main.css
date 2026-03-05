@@ -7586,34 +7586,8 @@ img[src="images/Wilshire-white.svg"] {
   display: flex;
   align-items: center;
 }
-/* Footer layout overhaul */
-footer {
-  overflow: visible !important;
-  height: auto !important;
-}
-footer > .container {
-  padding: 0;
-  max-width: none;
-}
+/* Footer content top padding */
 footer > .container > div {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: space-between !important;
-  align-items: flex-start !important;
-  padding: 60px 40px 40px 40px !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-/* Each footer column */
-footer > .container > div > div {
-  flex: 1 1 200px;
-  min-width: 150px;
-}
-/* Disclaimer — full width below the columns */
-footer > .container > div > div:last-child {
-  flex: 1 1 100%;
-  min-width: 0;
-  padding-top: 40px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 160px;
 }
 /*# sourceMappingURL=maps/main.css.map */
