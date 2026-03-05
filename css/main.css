@@ -7580,4 +7580,10 @@ footer {
 img[src="images/Wilshire-white.svg"] {
   filter: invert(1);
 }
+/* Hero section — full viewport height */
+#home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 /*# sourceMappingURL=maps/main.css.map */
