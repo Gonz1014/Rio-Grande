@@ -7550,4 +7550,18 @@ to{
   height: 100%;
   object-fit: cover;
 }
+/* Footer padding-top increase (+80px) */
+footer {
+  padding-top: 160px !important;
+}
+@media (min-width: 640px) {
+  footer {
+    padding-top: 176px !important;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    padding-top: 224px !important;
+  }
+}
 /*# sourceMappingURL=maps/main.css.map */
