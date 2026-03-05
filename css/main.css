@@ -7593,18 +7593,27 @@ footer {
 }
 footer > .container {
   padding: 0;
+  max-width: none;
 }
 footer > .container > div {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  gap: 40px !important;
-  padding: 80px 60px 60px 60px !important;
-  align-items: start !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding: 60px 40px 40px 40px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
-/* Disclaimer spans full width below the 3 columns */
+/* Each footer column */
+footer > .container > div > div {
+  flex: 1 1 200px;
+  min-width: 150px;
+}
+/* Disclaimer — full width below the columns */
 footer > .container > div > div:last-child {
-  grid-column: 1 / -1;
-  padding: 40px 0 0 0;
+  flex: 1 1 100%;
+  min-width: 0;
+  padding-top: 40px;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 /*# sourceMappingURL=maps/main.css.map */
