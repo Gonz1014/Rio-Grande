@@ -7586,4 +7586,25 @@ img[src="images/Wilshire-white.svg"] {
   display: flex;
   align-items: center;
 }
+/* Footer layout overhaul */
+footer {
+  overflow: visible !important;
+  height: auto !important;
+}
+footer > .container {
+  padding: 0;
+}
+footer > .container > div {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  gap: 40px !important;
+  padding: 80px 60px 60px 60px !important;
+  align-items: start !important;
+}
+/* Disclaimer spans full width below the 3 columns */
+footer > .container > div > div:last-child {
+  grid-column: 1 / -1;
+  padding: 40px 0 0 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
 /*# sourceMappingURL=maps/main.css.map */
