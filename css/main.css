@@ -7578,10 +7578,7 @@ footer {
 .menu-footer {
   border: none !important;
 }
-/* Wilshire logo — invert white SVG for light background */
-img[src="images/Wilshire-white.svg"] {
-  filter: invert(1);
-}
+
 /* Hero section — full viewport height */
 #home {
   min-height: 100vh;
