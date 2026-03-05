@@ -7592,4 +7592,8 @@ img[src="images/Wilshire-white.svg"] {
 footer > .container > div {
   padding-top: 160px;
 }
+/* Disable play/video cursor on service tiles */
+.cursor-fancy {
+  cursor: default !important;
+}
 /*# sourceMappingURL=maps/main.css.map */
