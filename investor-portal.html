@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Investor Portal | Rio Grande Advisors</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5" />
+  <meta name="description" content="Investor Portal for Rio Grande Advisors private fund information." />
+
+  <!-- Stylesheets -->
+  <link href="css/main.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="shortcut icon" href="images/favicon.svg" />
+  <link rel="manifest" href="images/site.webmanifest" />
+
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background-color: #fff;
+      font-family: inherit;
+    }
+    .portal-wrap {
+      width: 100%;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .gate-box {
+      border: 1px solid #e2e2e2;
+      padding: 48px 40px;
+      text-align: center;
+    }
+    .gate-box h1 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    .gate-box .subheading {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 32px;
+    }
+    .checkbox-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      text-align: left;
+      margin-bottom: 28px;
+    }
+    .checkbox-row input[type="checkbox"] {
+      margin-top: 3px;
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+      accent-color: #12D8CC;
+    }
+    .checkbox-row label {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      cursor: pointer;
+    }
+    .proceed-btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #12D8CC;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .proceed-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .fund-details {
+      display: none;
+      margin-top: 48px;
+      border-top: 1px solid #e2e2e2;
+      padding-top: 40px;
+    }
+    .fund-details h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .fund-details p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #333;
+      margin-bottom: 16px;
+    }
+    .fund-details .disclaimer {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 24px;
+      border-top: 1px solid #e2e2e2;
+      padding-top: 16px;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 32px;
+      font-size: 0.9rem;
+      color: #12D8CC;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="portal-wrap">
+    <div class="gate-box">
+      <h1>Investor Portal</h1>
+      <p class="subheading">
+        This section contains information about private fund offerings available solely to Accredited Investors and Qualified Clients.
+      </p>
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="accredited-confirm" />
+        <label for="accredited-confirm">
+          I confirm that I am an Accredited Investor and/or Qualified Client as defined under applicable U.S. securities laws.
+        </label>
+      </div>
+
+      <button class="proceed-btn" id="proceed-btn" disabled>
+        Proceed to Fund Information →
+      </button>
+
+      <div class="fund-details" id="fund-details">
+        <h2>Rio Grande Wilshire Alternative Yield Fund</h2>
+        <p>
+          The Rio Grande Wilshire Alternative Yield Fund is an alternative investment vehicle targeting income-generating strategies with low correlation to public markets, prioritizing capital preservation and consistent returns across market cycles.
+        </p>
+        <p>
+          <strong>Rio Grande Advisors' Role:</strong> Rio Grande Advisors serves as Investment Advisor and Special Limited Partner to the fund, bringing institutional-grade portfolio oversight and cross-border expertise to benefit fund investors.
+        </p>
+        <p>
+          <strong>Strategic Partnership — Wilshire Advisors:</strong> The fund is structured in partnership with Wilshire Advisors, an investment adviser and manager to some of the world's largest institutions and a full-spectrum provider of alternative investment solutions. Wilshire advises on more than $1.5 trillion in assets and manages $134 billion. *
+        </p>
+        <p class="disclaimer">
+          * Asset figures relate solely to Wilshire Advisors and not to Rio Grande Advisors.
+        </p>
+      </div>
+
+      <a href="index.html" class="back-link">← Back to Rio Grande Advisors</a>
+    </div>
+  </div>
+
+  <script>
+    var checkbox = document.getElementById('accredited-confirm');
+    var btn = document.getElementById('proceed-btn');
+    var details = document.getElementById('fund-details');
+
+    checkbox.addEventListener('change', function () {
+      btn.disabled = !this.checked;
+    });
+
+    btn.addEventListener('click', function () {
+      if (checkbox.checked) {
+        details.style.display = 'block';
+        details.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  </script>
+</body>
+
+</html>
