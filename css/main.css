@@ -7534,7 +7534,20 @@ to{
 }
 /* Partnership section card heading font size */
 #partnership .blog-title h3 {
-  font-size: 1rem !important;
+  font-size: 1.15rem !important;
   line-height: 1.6;
+}
+#partnership .blog-title p {
+  font-size: 1.15rem;
+}
+/* Partnership section card images — 33% reduction */
+#partnership figure {
+  max-height: 260px;
+  overflow: hidden;
+}
+#partnership figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /*# sourceMappingURL=maps/main.css.map */
