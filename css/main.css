@@ -7525,6 +7525,12 @@ to{
   object-fit: cover;
   object-position: center;
 }
+/* Leadership cards two-column grid */
+#leadership .container > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
 /* Leadership card profile photos */
 #leadership .p-8 img {
   width: 180px;
