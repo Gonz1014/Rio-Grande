@@ -7593,4 +7593,22 @@ footer > .container > div {
 .cursor-fancy {
   cursor: default !important;
 }
+/* Hero Learn More button — brand teal */
+.rv-button-primary .rv-button-top {
+  background-color: #225451 !important;
+}
+.rv-button-primary .rv-button-top span {
+  color: #ffffff !important;
+}
+/* Nav menu active item — brand teal */
+.menu-list-item.active .menu-list-item-text {
+  color: #225451 !important;
+}
+/* Footer contact card arrow button — white background, teal icon */
+footer .bg-primary.w-\[55px\] {
+  background-color: #ffffff !important;
+}
+footer .bg-primary.w-\[55px\] img {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(30%) saturate(600%) hue-rotate(145deg) brightness(0.8) !important;
+}
 /*# sourceMappingURL=maps/main.css.map */
