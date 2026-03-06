@@ -7593,6 +7593,10 @@ footer {
   background-color: #000000;
   position: relative;
 }
+/* Hero content container top offset */
+#home .container {
+  padding-top: 80px;
+}
 /* Hero watermark text */
 #home .footer-text {
   position: absolute;
