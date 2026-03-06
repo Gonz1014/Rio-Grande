@@ -7584,6 +7584,17 @@ footer {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #000000;
+  position: relative;
+}
+/* Hero watermark text */
+#home .footer-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
 }
 /* Footer content top padding */
 footer > .container > div {
