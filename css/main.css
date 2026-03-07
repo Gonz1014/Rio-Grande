@@ -7593,6 +7593,13 @@ footer {
   background-color: #000000;
   position: relative;
 }
+/* Hero section — light mode warm cream override */
+body:not(.dark) #home,
+body:not(.dark) .hero,
+body:not(.dark) .hero-section {
+  background-color: #f5f2ee;
+  background-image: none;
+}
 /* Hero content container top offset */
 #home .container {
   padding-top: 80px;
