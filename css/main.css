@@ -7659,6 +7659,6 @@ footer .bg-primary.w-\[55px\] img {
 }
 /* Navbar logo text — dark mode */
 .dark .company-name {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 /*# sourceMappingURL=maps/main.css.map */
