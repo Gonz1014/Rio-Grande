@@ -7644,4 +7644,8 @@ footer .bg-primary.w-\[55px\] img {
   line-height: 1.4;
   text-transform: uppercase;
 }
+/* Navbar logo text — dark mode */
+.dark .company-name {
+  color: #ffffff;
+}
 /*# sourceMappingURL=maps/main.css.map */
