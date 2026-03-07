@@ -7592,20 +7592,7 @@ footer {
   align-items: center;
   position: relative;
 }
-/* Hero section — light mode warm cream */
-body:not(.dark) #home,
-body:not(.dark) .hero,
-body:not(.dark) .hero-section {
-  background-color: #f5f2ee;
-  background-image: none;
-}
-/* Hero section — dark mode black */
-.dark #home,
-.dark .hero,
-.dark .hero-section {
-  background-color: #000000;
-  background-image: none;
-}
+
 /* Hero content container top offset */
 #home .container {
   padding-top: 80px;
