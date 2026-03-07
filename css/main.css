@@ -7650,12 +7650,13 @@ footer .bg-primary.w-\[55px\] img {
 }
 /* Navbar logo text */
 .company-name {
-  font-family: 'Georgia', serif;
-  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.15em;
-  line-height: 1.4;
+  line-height: 1.5;
   text-transform: uppercase;
+  white-space: normal;
 }
 /* Navbar logo text — dark mode */
 .dark .company-name {
