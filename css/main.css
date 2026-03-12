@@ -7517,9 +7517,9 @@ to{
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-/* Service card image size — 25% reduction */
+/* Service card image size — 42% reduction total */
 .hero-video-container img {
-  height: 420px;
+  height: 349px;
   width: 100%;
   max-width: 100%;
   object-fit: cover;
