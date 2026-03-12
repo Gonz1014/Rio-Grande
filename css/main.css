@@ -7652,4 +7652,16 @@ footer .bg-primary.w-\[55px\] img {
 #about p {
   margin-bottom: 1.5rem;
 }
+.partnership-disclaimer {
+  margin-top: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partnership-disclaimer .footnote {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=maps/main.css.map */
