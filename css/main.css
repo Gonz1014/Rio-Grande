@@ -7652,6 +7652,9 @@ footer .bg-primary.w-\[55px\] img {
 #about p {
   margin-bottom: 1.5rem;
 }
+#services {
+  padding-bottom: 2rem !important;
+}
 .partnership-card {
   display: flex;
   flex-direction: row;
