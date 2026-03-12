@@ -7517,9 +7517,9 @@ to{
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-/* Service card image size — 42% reduction total */
+/* Service card image size */
 .hero-video-container img {
-  height: 349px;
+  height: 420px;
   width: 100%;
   max-width: 100%;
   object-fit: cover;
@@ -7627,6 +7627,11 @@ footer > .container > div {
 /* Nav menu active item — brand teal */
 .menu-list-item.active .menu-list-item-text {
   color: #225451 !important;
+}
+.menu-list-item.active .menu-list-item-text::before {
+  --tw-scale-x: 0;
+  --tw-scale-y: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(0) scaleY(0);
 }
 /* Footer contact card arrow button — white background, teal icon */
 footer .bg-primary.w-\[55px\] {
