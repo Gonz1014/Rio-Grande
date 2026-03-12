@@ -7755,12 +7755,14 @@ footer .bg-primary.w-\[55px\] img {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   font-weight: 400;
+  text-align: left;
 }
 .legal-intro {
   font-size: 1.05rem;
   line-height: 1.8;
   margin-bottom: 2.5rem;
   color: #555;
+  text-align: left;
 }
 .legal-section {
   margin-bottom: 2.5rem;
@@ -7778,6 +7780,7 @@ footer .bg-primary.w-\[55px\] img {
   line-height: 1.8;
   color: #444;
   margin-bottom: 0.75rem;
+  text-align: left;
 }
 .legal-section ul {
   padding-left: 1.5rem;
