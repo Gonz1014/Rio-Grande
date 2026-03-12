@@ -7746,4 +7746,47 @@ footer .bg-primary.w-\[55px\] img {
 #investor-submit:hover {
   background-color: #144840;
 }
+.legal-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+}
+.legal-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.legal-intro {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  color: #555;
+}
+.legal-section {
+  margin-bottom: 2.5rem;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+.legal-section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #1a5c52;
+}
+.legal-section p {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+.legal-section ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+.legal-section ul li {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 0.4rem;
+}
 /*# sourceMappingURL=maps/main.css.map */
