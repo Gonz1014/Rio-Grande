@@ -7649,4 +7649,7 @@ footer .bg-primary.w-\[55px\] img {
 .dark .company-name {
   color: #ffffff !important;
 }
+#about p {
+  margin-bottom: 1.5rem;
+}
 /*# sourceMappingURL=maps/main.css.map */
