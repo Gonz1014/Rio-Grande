@@ -60,7 +60,7 @@
       width: 18px;
       height: 18px;
       cursor: pointer;
-      accent-color: #12D8CC;
+      accent-color: #225451;
     }
     .checkbox-row label {
       font-size: 0.95rem;
@@ -70,7 +70,7 @@
     .proceed-btn {
       display: inline-block;
       padding: 14px 32px;
-      background-color: #12D8CC;
+      background-color: #225451;
       color: #fff;
       font-size: 1rem;
       font-weight: 600;
@@ -109,7 +109,7 @@
       display: inline-block;
       margin-top: 32px;
       font-size: 0.9rem;
-      color: #12D8CC;
+      color: #225451;
       text-decoration: none;
     }
     .back-link:hover {
@@ -133,9 +133,22 @@
         </label>
       </div>
 
-      <button class="proceed-btn" id="proceed-btn" disabled>
-        Proceed to Fund Information →
-      </button>
+      <form id="investor-contact-form">
+        <div class="form-group">
+          <input type="text" id="investor-name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="investor-email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" id="investor-subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea id="investor-message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" id="investor-submit">Send Message →</button>
+      </form>
+      <p id="form-confirmation" style="display:none; color: #1a5c52; margin-top: 1rem;">Your message has been sent. We will be in touch shortly.</p>
 
       <div class="fund-details" id="fund-details">
         <h2>Rio Grande Wilshire Alternative Yield Fund</h2>
@@ -171,6 +184,21 @@
         details.style.display = 'block';
         details.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
+    });
+  </script>
+  <script>
+    document.getElementById('investor-contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = document.getElementById('investor-name').value;
+      const email = document.getElementById('investor-email').value;
+      const subject = document.getElementById('investor-subject').value;
+      const message = document.getElementById('investor-message').value;
+
+      const mailtoLink = `mailto:info@riograndeadvisors.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}`;
+      window.location.href = mailtoLink;
+
+      document.getElementById('form-confirmation').style.display = 'block';
+      document.getElementById('investor-contact-form').reset();
     });
   </script>
 </body>
