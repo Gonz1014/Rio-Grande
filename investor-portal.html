@@ -133,18 +133,19 @@
         </label>
       </div>
 
-      <form id="investor-contact-form">
+      <form id="investor-contact-form" action="https://formspree.io/f/xxxxxxxx" method="POST">
+        <input type="hidden" name="_subject" value="Investor Portal Inquiry — Rio Grande Advisors">
         <div class="form-group">
-          <input type="text" id="investor-name" placeholder="Your Name" required>
+          <input type="text" id="investor-name" name="name" placeholder="Your Name" required>
         </div>
         <div class="form-group">
-          <input type="email" id="investor-email" placeholder="Your Email" required>
+          <input type="email" id="investor-email" name="email" placeholder="Your Email" required>
         </div>
         <div class="form-group">
-          <input type="text" id="investor-subject" placeholder="Subject" required>
+          <input type="text" id="investor-subject" name="subject" placeholder="Subject" required>
         </div>
         <div class="form-group">
-          <textarea id="investor-message" placeholder="Your Message" rows="5" required></textarea>
+          <textarea id="investor-message" name="message" placeholder="Your Message" rows="5" required></textarea>
         </div>
         <button type="submit" id="investor-submit">Send Message →</button>
       </form>
@@ -187,18 +188,11 @@
     });
   </script>
   <script>
-    document.getElementById('investor-contact-form').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const name = document.getElementById('investor-name').value;
-      const email = document.getElementById('investor-email').value;
-      const subject = document.getElementById('investor-subject').value;
-      const message = document.getElementById('investor-message').value;
-
-      const mailtoLink = `mailto:info@riograndeadvisors.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}`;
-      window.location.href = mailtoLink;
-
-      document.getElementById('form-confirmation').style.display = 'block';
-      document.getElementById('investor-contact-form').reset();
+    document.getElementById('investor-contact-form').addEventListener('submit', function() {
+      setTimeout(function() {
+        document.getElementById('form-confirmation').style.display = 'block';
+        document.getElementById('investor-contact-form').reset();
+      }, 500);
     });
   </script>
 </body>
