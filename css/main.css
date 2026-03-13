@@ -7796,4 +7796,18 @@ footer .bg-primary.w-\[55px\] img {
   padding-top: 4rem !important;
   padding-bottom: 8rem !important;
 }
+/* Footer background watermark text */
+.footer-bgtext {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  z-index: 0;
+}
+/* Footer content grid — above watermark */
+.footer-content {
+  position: relative;
+  z-index: 10;
+}
 /*# sourceMappingURL=maps/main.css.map */
