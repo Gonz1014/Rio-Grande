@@ -7809,4 +7809,13 @@ footer .bg-primary.w-\[55px\] img {
   position: relative;
   z-index: 10;
 }
+/* Footer link colors */
+:root { --rg-teal: #225451; }
+footer a {
+  color: rgba(255,255,255,0.85);
+}
+footer a:hover,
+footer a:focus {
+  color: var(--rg-teal) !important;
+}
 /*# sourceMappingURL=maps/main.css.map */
