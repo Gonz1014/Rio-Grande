@@ -7563,19 +7563,6 @@ to{
   object-fit: cover;
 }
 /* Footer padding-top increase (+80px) */
-footer {
-  padding-top: 160px !important;
-}
-@media (min-width: 640px) {
-  footer {
-    padding-top: 176px !important;
-  }
-}
-@media (min-width: 768px) {
-  footer {
-    padding-top: 224px !important;
-  }
-}
 /* Remove vertical line from nav menu overlay */
 .menu::before {
   content: none !important;
@@ -7608,10 +7595,6 @@ footer {
   overflow: hidden;
   pointer-events: none;
   white-space: nowrap;
-}
-/* Footer content top padding */
-footer > .container > div {
-  padding-top: 80px;
 }
 /* Disable play/video cursor on service tiles */
 .cursor-fancy {
