@@ -7552,6 +7552,12 @@ to{
 #partnership .blog-title p {
   font-size: 1.35rem;
 }
+#partnership > .container > .text-center > p.text-appear {
+  max-width: 58rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap: balance;
+}
 /* Partnership section card images — 33% reduction */
 #partnership figure {
   max-height: 260px;
@@ -7642,6 +7648,12 @@ footer .bg-primary.w-\[55px\] img {
 }
 #services {
   padding-bottom: 2rem !important;
+}
+#services > .container > .text-center.mb-8.md\:mb-14 > p.text-appear:first-child {
+  margin-bottom: 0;
+}
+#services > .container > .text-center.mb-8.md\:mb-14 > p.text-appear + p.text-appear {
+  margin-top: 0;
 }
 .partnership-card {
   display: flex;
